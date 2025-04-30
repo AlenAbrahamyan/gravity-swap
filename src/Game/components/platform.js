@@ -19,6 +19,7 @@ export class Platform {
         });
 
         this.graphics = new PIXI.Graphics();
+        this.graphics.lineStyle(5, 0x000000, 1);
         this.graphics.beginFill(0xdddddd);
         this.graphics.drawRect(-width / 2, -height / 2, width, height);
         this.graphics.endFill();
