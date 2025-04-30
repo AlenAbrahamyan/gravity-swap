@@ -1,0 +1,8 @@
+export const pageNames = {
+    MEIN_MENU: 'MEIN_MENU',
+    LEVELS_SECTION: 'LEVELS_SECTION',
+    INFO_SECTION: 'INFO_SECTION',
+    IN_GAME: 'IN_GAME',
+    LOSE_PAGE: 'LOSE_PAGE',
+    WIN_PAGE: 'LOSE_PAGE_PAGE',
+}

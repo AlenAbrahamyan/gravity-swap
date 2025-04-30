@@ -1,0 +1,11 @@
+.lose-page{
+    background-color: rgba(250, 50, 50, 0.35);
+    width: 100%;
+    height: 100%;
+}
+
+.win-page{
+    background-color: rgba(50, 250, 50, 0.35);
+    width: 100%;
+    height: 100%;
+}

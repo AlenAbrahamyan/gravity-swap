@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'GameFont';
+    src: url('game-font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url('bg.svg');
+    /*background-color: #333333;*/
+}
+
+/*canvas {*/
+/*    opacity: 0;*/
+/*}*/
+
+/*canvas:hover {*/
+/*    opacity: 100;*/
+/*}*/

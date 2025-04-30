@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" style="background:#222;">
+  <defs>
+    <rect id="square" x="-25" y="-25" width="50" height="50" fill="#fff" opacity="0.12" />
+  </defs>
+
+  <g>
+    <!-- 40 animated cubes with varied positions, scales, speeds -->
+    <!-- Top Left -->
+    <use href="#square" transform="translate(100,100) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="20s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(120,80) scale(0.8)">
+      <animateTransform attributeName="transform" type="rotate" from="0 120 80" to="-360 120 80" dur="28s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(90,140) scale(1.2)">
+      <animateTransform attributeName="transform" type="rotate" from="0 90 140" to="360 90 140" dur="24s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Top Right -->
+    <use href="#square" transform="translate(700,100) scale(1.1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 700 100" to="-360 700 100" dur="27s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(680,130) scale(0.9)">
+      <animateTransform attributeName="transform" type="rotate" from="0 680 130" to="360 680 130" dur="32s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(750,80) scale(1.3)">
+      <animateTransform attributeName="transform" type="rotate" from="0 750 80" to="360 750 80" dur="22s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Bottom Left -->
+    <use href="#square" transform="translate(120,500) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 120 500" to="360 120 500" dur="29s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(90,550) scale(1.1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 90 550" to="-360 90 550" dur="25s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(150,480) scale(0.9)">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 480" to="360 150 480" dur="31s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Bottom Right -->
+    <use href="#square" transform="translate(700,500) scale(1.2)">
+      <animateTransform attributeName="transform" type="rotate" from="0 700 500" to="-360 700 500" dur="30s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(680,530) scale(0.8)">
+      <animateTransform attributeName="transform" type="rotate" from="0 680 530" to="360 680 530" dur="34s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(750,480) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 750 480" to="360 750 480" dur="21s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Center / Mid Areas -->
+    <use href="#square" transform="translate(400,300) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 400 300" to="360 400 300" dur="35s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(430,330) scale(1.3)">
+      <animateTransform attributeName="transform" type="rotate" from="0 430 330" to="-360 430 330" dur="24s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(370,280) scale(0.7)">
+      <animateTransform attributeName="transform" type="rotate" from="0 370 280" to="360 370 280" dur="28s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Left Side -->
+    <use href="#square" transform="translate(50,300) scale(0.9)">
+      <animateTransform attributeName="transform" type="rotate" from="0 50 300" to="360 50 300" dur="30s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(70,350) scale(1.2)">
+      <animateTransform attributeName="transform" type="rotate" from="0 70 350" to="-360 70 350" dur="26s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Right Side -->
+    <use href="#square" transform="translate(750,300) scale(1.1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 750 300" to="-360 750 300" dur="27s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(730,350) scale(0.9)">
+      <animateTransform attributeName="transform" type="rotate" from="0 730 350" to="360 730 350" dur="25s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Top Mid -->
+    <use href="#square" transform="translate(400,50) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 400 50" to="360 400 50" dur="31s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(360,80) scale(1.2)">
+      <animateTransform attributeName="transform" type="rotate" from="0 360 80" to="-360 360 80" dur="28s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Bottom Mid -->
+    <use href="#square" transform="translate(400,550) scale(1.3)">
+      <animateTransform attributeName="transform" type="rotate" from="0 400 550" to="360 400 550" dur="30s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(440,520) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 440 520" to="-360 440 520" dur="22s" repeatCount="indefinite"/>
+    </use>
+
+    <!-- Random Fillers (for balance and depth) -->
+    <use href="#square" transform="translate(200,200) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="36s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(300,150) scale(1.1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 300 150" to="-360 300 150" dur="19s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(500,250) scale(0.9)">
+      <animateTransform attributeName="transform" type="rotate" from="0 500 250" to="360 500 250" dur="34s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(600,300) scale(1.2)">
+      <animateTransform attributeName="transform" type="rotate" from="0 600 300" to="-360 600 300" dur="27s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(250,400) scale(0.8)">
+      <animateTransform attributeName="transform" type="rotate" from="0 250 400" to="360 250 400" dur="33s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(150,250) scale(1.3)">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 250" to="-360 150 250" dur="26s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(520,400) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 520 400" to="360 520 400" dur="24s" repeatCount="indefinite"/>
+    </use>
+    <use href="#square" transform="translate(650,350) scale(1)">
+      <animateTransform attributeName="transform" type="rotate" from="0 650 350" to="-360 650 350" dur="21s" repeatCount="indefinite"/>
+    </use>
+  </g>
+</svg>

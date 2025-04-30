@@ -1,0 +1,5 @@
+rect
+character
+4push
+door
+rotatingItem
