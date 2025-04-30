@@ -1,48 +1,163 @@
-import {LABELS} from "../Game/constants";
+import { LABELS } from "../Game/constants"
 
 export const LEVELS = [
-    {
-        [LABELS.CHARACTER]: [{
-            x: 550, y: 0,
-        }],
-        [LABELS.PLATFORM]: [
-            {x: 460, y: 600, width: 700, height: 100,},
-            {x: 1100, y: 900, width: 400, height: 100,}
-        ],
-        [LABELS.THORN]: [
-            {x: 960, y: 150,},
-            {x: 260, y: 150, angle: Math.PI / 2},
-        ],
-        [LABELS.CIRCLE]: [
-            {x: 100, y: 330,},
-            {x: 1100, y: 330, radius: 100},
-        ],
-        [LABELS.DYNAMIC_THORN]: [
-            {pos1:{x: 1500, y: 300,}, pos2:{x: 1500, y: 800,}},
-        ],
-        [LABELS.DOOR]: [
-            {x: 760, y: 330,},
-        ],
-    },
-    {
-        [LABELS.CHARACTER]: [{
-            x: 550, y: 0,
-        }],
-        [LABELS.PLATFORM]: [
-            {x: 460, y: 600, width: 700, height: 100,},
-            {x: 1100, y: 900, width: 400, height: 100,}
-        ],
-        [LABELS.THORN]: [
-            {x: 260, y: 150, angle: Math.PI / 2},
-        ],
-        [LABELS.CIRCLE]: [
-            {x: 1100, y: 330, radius: 100},
-        ],
-        [LABELS.DYNAMIC_THORN]: [
-            {pos1:{x: 1500, y: 300,}, pos2:{x: 1500, y: 800,}},
-        ],
-        [LABELS.DOOR]: [
-            {x: 760, y: 330,},
-        ],
-    }
+  {
+    [LABELS.CHARACTER]: [{ x: 960, y: 950 }],
+    [LABELS.PLATFORM]: [
+      // Borders
+      { x: 0, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920 / 2, y: 0, width: 1920, height: 150 },
+      { x: 1920 / 2, y: 1080, width: 1920, height: 150 },
+
+      { x: 960, y: 600, width: 600, height: 80 },
+    ],
+    [LABELS.THORN]: [
+      { x: 960, y: 105, angle: Math.PI },
+      { x: 80, y: 980 },
+      { x: 1840, y: 980 },
+      { x: 480, y: 980 },
+      { x: 1440, y: 980 },
+    ],
+    [LABELS.CIRCLE]: [],
+    [LABELS.DYNAMIC_THORN]: [],
+    [LABELS.DOOR]: [{ x: 960, y: 460 }],
+  },
+  {
+    [LABELS.CHARACTER]: [{ x: 200, y: 950 }],
+    [LABELS.PLATFORM]: [
+      // Borders
+      { x: 0, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920 / 2, y: 0, width: 1920, height: 150 },
+      { x: 1920 / 2, y: 1080, width: 1920, height: 150 },
+
+      { x: 460, y: 655, width: 200, height: 700 },
+      { x: 900, y: 425, width: 200, height: 700 },
+      { x: 1460, y: 655, width: 200, height: 700 },
+    ],
+    [LABELS.THORN]: [
+      { x: 460, y: 105, angle: Math.PI },
+      { x: 1460, y: 105, angle: Math.PI },
+      { x: 900, y: 805, angle: Math.PI },
+
+      { x: 30, y: 300, angle: Math.PI / 2 },
+      { x: 30, y: 450, angle: Math.PI / 2 },
+      { x: 30, y: 600, angle: Math.PI / 2 },
+      { x: 30, y: 750, angle: Math.PI / 2 },
+      { x: 30, y: 900, angle: Math.PI / 2 },
+
+      { x: 1030, y: 150, angle: Math.PI / 2 },
+      { x: 1030, y: 300, angle: Math.PI / 2 },
+      { x: 1030, y: 450, angle: Math.PI / 2 },
+      { x: 1030, y: 600, angle: Math.PI / 2 },
+
+      { x: 1590, y: 450, angle: Math.PI / 2 },
+      { x: 1590, y: 600, angle: Math.PI / 2 },
+      { x: 1590, y: 750, angle: Math.PI / 2 },
+      { x: 1590, y: 900, angle: Math.PI / 2 },
+
+      { x: 1330, y: 450, angle: Math.PI / -2 },
+      { x: 1330, y: 600, angle: Math.PI / -2 },
+      { x: 1330, y: 850, angle: Math.PI / -2 },
+    ],
+    [LABELS.CIRCLE]: [],
+    [LABELS.DYNAMIC_THORN]: [],
+    [LABELS.DOOR]: [{ x: 1800, y: 900 }],
+  },
+  {
+    [LABELS.CHARACTER]: [{ x: 100, y: 980 }],
+    [LABELS.PLATFORM]: [
+      { x: 0, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
+
+      { x: 100, y: 1050, width: 200, height: 150 },
+      { x: 600, y: 850, width: 300, height: 60 },
+      { x: 1200, y: 700, width: 300, height: 60 },
+      { x: 1765, y: 450, width: 300, height: 60 },
+    ],
+    [LABELS.THORN]: [
+      { x: 300, y: 1050 },
+      { x: 425, y: 1050 },
+      { x: 550, y: 1050 },
+      { x: 675, y: 1050 },
+      { x: 800, y: 1050 },
+      { x: 925, y: 1050 },
+      { x: 925, y: 1050 },
+      { x: 1050, y: 1050 },
+      { x: 1175, y: 1050 },
+      { x: 1300, y: 1050 },
+      { x: 1425, y: 1050 },
+      { x: 1550, y: 1050 },
+      { x: 1675, y: 1050 },
+      { x: 1800, y: 1050 },
+
+      { x: 150, y: 30, angle: Math.PI },
+      { x: 275, y: 30, angle: Math.PI },
+      { x: 400, y: 30, angle: Math.PI },
+      { x: 525, y: 30, angle: Math.PI },
+      { x: 650, y: 30, angle: Math.PI },
+      { x: 775, y: 30, angle: Math.PI },
+      { x: 900, y: 30, angle: Math.PI },
+      { x: 900, y: 30, angle: Math.PI },
+      { x: 1025, y: 30, angle: Math.PI },
+      { x: 1150, y: 30, angle: Math.PI },
+      { x: 1275, y: 30, angle: Math.PI },
+      { x: 1400, y: 30, angle: Math.PI },
+    ],
+    [LABELS.CIRCLE]: [],
+    [LABELS.DYNAMIC_THORN]: [],
+    [LABELS.DOOR]: [{ x: 1780, y: 320 }],
+  },
+  {
+    [LABELS.CHARACTER]: [{ x: 200, y: 800 }],
+    [LABELS.PLATFORM]: [
+      { x: 0, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
+
+      { x: 200, y: 980, width: 300, height: 60 },
+      { x: 600, y: 800, width: 300, height: 60 },
+      { x: 1000, y: 600, width: 300, height: 60 },
+      { x: 1400, y: 400, width: 300, height: 60 },
+      { x: 960, y: 1080, width: 1920, height: 1 },
+    ],
+    [LABELS.THORN]: [
+      { x: 1088, y: 540 },
+
+      { x: 175, y: 1050 },
+      { x: 300, y: 1050 },
+      { x: 425, y: 1050 },
+      { x: 550, y: 1050 },
+      { x: 675, y: 1050 },
+      { x: 800, y: 1050 },
+      { x: 925, y: 1050 },
+      { x: 925, y: 1050 },
+      { x: 1050, y: 1050 },
+      { x: 1175, y: 1050 },
+      { x: 1300, y: 1050 },
+      { x: 1425, y: 1050 },
+      { x: 1550, y: 1050 },
+      { x: 1675, y: 1050 },
+      { x: 1800, y: 1050 },
+
+      { x: 175, y: 30, angle: Math.PI },
+      { x: 300, y: 30, angle: Math.PI },
+      { x: 425, y: 30, angle: Math.PI },
+      { x: 550, y: 30, angle: Math.PI },
+      { x: 675, y: 30, angle: Math.PI },
+      { x: 800, y: 30, angle: Math.PI },
+      { x: 925, y: 30, angle: Math.PI },
+      { x: 925, y: 30, angle: Math.PI },
+      { x: 1050, y: 30, angle: Math.PI },
+      { x: 1175, y: 30, angle: Math.PI },
+      { x: 1300, y: 30, angle: Math.PI },
+      { x: 1425, y: 30, angle: Math.PI },
+      { x: 1550, y: 30, angle: Math.PI },
+      { x: 1675, y: 30, angle: Math.PI },
+      { x: 1800, y: 30, angle: Math.PI },
+    ],
+    [LABELS.CIRCLE]: [],
+    [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 800, y: 300 }, pos2: { x: 800, y: 900 }, radius: 40 }],
+    [LABELS.DOOR]: [{ x: 1400, y: 270 }],
+  },
 ]
