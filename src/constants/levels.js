@@ -160,4 +160,44 @@ export const LEVELS = [
     [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 800, y: 300 }, pos2: { x: 800, y: 900 }, radius: 40 }],
     [LABELS.DOOR]: [{ x: 1400, y: 270 }],
   },
+  {
+    [LABELS.CHARACTER]: [{ x: 1800, y: 120 }],
+    [LABELS.PLATFORM]: [
+      { x: 0, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
+      { x: 1920 / 2, y: 0, width: 1920, height: 50 },
+      { x: 1920 / 2, y: 1080, width: 1920, height: 50 },
+
+      { x: 1100, y: 300, width: 1650, height: 50 },
+      { x: 825, y: 650, width: 1650, height: 50 },
+    ],
+    [LABELS.THORN]: [
+      { x: 1025, y: 250 },
+      { x: 1150, y: 250 },
+      { x: 1275, y: 250 },
+      { x: 1400, y: 250 },
+      { x: 1525, y: 250 },
+
+      { x: 775, y: 1030 },
+      { x: 900, y: 1030 },
+      { x: 1025, y: 1030 },
+      { x: 1150, y: 1030 },
+
+      { x: 350, y: 50, angle: Math.PI },
+      { x: 475, y: 50, angle: Math.PI },
+      { x: 600, y: 50, angle: Math.PI },
+
+      { x: 325, y: 702, angle: Math.PI },
+      { x: 450, y: 702, angle: Math.PI },
+    ],
+    [LABELS.CIRCLE]: [
+      { x: 80, y: 120, radius: 80 },
+      { x: 380, y: 400, radius: 50 },
+      { x: 800, y: 550, radius: 70 },
+      { x: 1300, y: 400, radius: 40 },
+      { x: 1800, y: 380, radius: 50 },
+    ],
+    [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 1200, y: 770 }, pos2: { x: 1800, y: 770 } }],
+    [LABELS.DOOR]: [{ x: 80, y: 950 }],
+  },
 ]
