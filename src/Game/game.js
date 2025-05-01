@@ -94,10 +94,6 @@ export class Game {
                 case "ArrowRight":
                     this.character.moveRight();
                     break;
-                // case "ArrowUp":
-                // case " ":
-                //     this.character.jump();
-                //     break;
                 default:
                     break;
             }
@@ -109,9 +105,9 @@ export class Game {
             return;
         }
 
-        if (e.code === 'ArrowUp') {
+        if (e.code === 'ArrowUp' || e.detail.code === 'ArrowUp') {
             if (this.isHaveCollision(this.character.body)) this.character.jump(this.physicsWorld.gravity.y > 0 ? 1 : -1);
-        } else if (e.code === 'Space') {
+        } else if (e.code === 'Space' || e.detail.code === 'Space') {
             this.physicsWorld.gravity.y *= -1;
         }
     }
