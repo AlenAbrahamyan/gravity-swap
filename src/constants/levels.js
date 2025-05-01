@@ -110,7 +110,6 @@ export const LEVELS = [
     [LABELS.DOOR]: [{ x: 1780, y: 320 }],
   },
   {
-    [LABELS.CHARACTER]: [{ x: 200, y: 800 }],
     [LABELS.PLATFORM]: [
       { x: 0, y: 1080 / 2, width: 1, height: 10000 },
       { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
@@ -123,7 +122,6 @@ export const LEVELS = [
     ],
     [LABELS.THORN]: [
       { x: 1088, y: 540 },
-
       { x: 175, y: 1050 },
       { x: 300, y: 1050 },
       { x: 425, y: 1050 },
@@ -157,11 +155,11 @@ export const LEVELS = [
       { x: 1800, y: 30, angle: Math.PI },
     ],
     [LABELS.CIRCLE]: [],
-    [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 800, y: 300 }, pos2: { x: 800, y: 900 }, radius: 40 }],
+    [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 800, y: 350 }, pos2: { x: 800, y: 900 }, radius: 50 }, { pos1: { x: 100, y: 300 }, pos2: { x: 700, y: 300 }, radius: 50 }],
     [LABELS.DOOR]: [{ x: 1400, y: 270 }],
+    [LABELS.CHARACTER]: [{ x: 200, y: 800 }],
   },
   {
-    [LABELS.CHARACTER]: [{ x: 1800, y: 120 }],
     [LABELS.PLATFORM]: [
       { x: 0, y: 1080 / 2, width: 1, height: 10000 },
       { x: 1920, y: 1080 / 2, width: 1, height: 10000 },
@@ -197,11 +195,11 @@ export const LEVELS = [
       { x: 1300, y: 400, radius: 40 },
       { x: 1800, y: 380, radius: 50 },
     ],
-    [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 1200, y: 770 }, pos2: { x: 1800, y: 770 } }],
+    [LABELS.DYNAMIC_THORN]: [{ pos1: { x: 1200, y: 770 }, pos2: { x: 1800, y: 770 }, radius: 65 }],
     [LABELS.DOOR]: [{ x: 80, y: 950 }],
+    [LABELS.CHARACTER]: [{ x: 1800, y: 120 }],
   },
   {
-    [LABELS.CHARACTER]: [{ x: 1800, y: 950 }],
     [LABELS.PLATFORM]: [
       // Borders
       { x: 0, y: 1080 / 2, width: 1, height: 10000 },
@@ -235,10 +233,11 @@ export const LEVELS = [
       { x: 1600, y: 170, radius: 80 },
     ],
     [LABELS.DYNAMIC_THORN]: [
-      { pos1: { x: 500, y: 120 }, pos2: { x: 500, y: 500 }, radius: 50 },
-      { pos1: { x: 900, y: 500 }, pos2: { x: 900, y: 120 }, radius: 50 },
-      { pos1: { x: 1300, y: 120 }, pos2: { x: 1300, y: 500 }, radius: 50 },
+      { pos1: { x: 500, y: 120 }, pos2: { x: 500, y: 500 }, radius: 65 },
+      { pos1: { x: 900, y: 500 }, pos2: { x: 900, y: 120 }, radius: 65 },
+      { pos1: { x: 1300, y: 120 }, pos2: { x: 1300, y: 500 }, radius: 65 },
     ],
     [LABELS.DOOR]: [{ x: 1800, y: 675 }],
+    [LABELS.CHARACTER]: [{ x: 1800, y: 950 }],
   },
 ]
