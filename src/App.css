@@ -109,14 +109,14 @@ body {
     align-items: flex-end;
 
     .mobile-controller-item {
-        font-size: 100px;
-        padding: 10px 50px;
-        background-color: rgba(0, 0, 0, 0.51);
-        opacity: 0.5;
+        font-size: 140px;
+        padding: 25px 75px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0.4;
         justify-content: center;
     }
 
     .mobile-controller-item:hover {
-        opacity: 0.85;
+        opacity: 0.65;
     }
 }
