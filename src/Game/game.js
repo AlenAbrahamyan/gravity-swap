@@ -46,7 +46,7 @@ export class Game {
 
         this.runCollisionDetector();
 
-        document.addEventListener('keydown', (e) => this.handleKeyDown(e));
+        window.addEventListener('keydown', (e) => this.handleKeyDown(e));
     }
 
     runCollisionDetector() {
